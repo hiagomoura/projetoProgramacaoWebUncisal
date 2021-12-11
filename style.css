@@ -24,6 +24,7 @@ section
 	position: relative;
 }
 
+
 /* Estilo navegador */
 nav
 {
@@ -62,6 +63,7 @@ nav ul li a
 	font-weight: bold;
 	color: #2d2a2a;
 }
+
 
 /* Estilo Textos */
 .conteudo-texto p:nth-child(1)
@@ -128,7 +130,6 @@ nav ul li a
 	background-color: #0b0b0b;
 	border: none;
 	color: #ffffff;;
-
 }
 
 button:active
@@ -137,8 +138,8 @@ button:active
 
 }
 
-/* Estilo Imagem banner sem fundo */
 
+/* Estilo Imagem banner sem fundo */
 .imgbg
 {
 	height: 490px;
@@ -146,13 +147,7 @@ button:active
 	bottom: 40px;
 	left: 67%;
 	transform: translateX(-70%);
-
 }
-
-
-
-
-
 
 
 .conteudo-sobre
@@ -222,12 +217,10 @@ button:active
 
 
 /* Seção de Serviços  */
-
 .servicos
 {
 	height: 600px;
 	background-color: #ffffff;
-
 }
 
 .servicos-textos p:nth-child(1)
@@ -237,7 +230,6 @@ button:active
 	color: #3e3d3d;
 	font-size:30px;
 	line-height: 0px;
-
 }
 
 .servicos-textos p:nth-child(2)
@@ -247,21 +239,18 @@ button:active
 	color: #3e3d3d;
 	font-size:15px;
 	line-height: 5px;
-
 }
 
 .servicos-textos p:nth-child(3)
 {
 	font-family: calibri;
-	color: #7e7d7d;
-	
+	color: #7e7d7d;	
 }
 
- .servicos-textos
+.servicos-textos
 {
 	width: 500px;
-	margin: 50px 0px 0px 50px;
-	
+	margin: 50px 0px 80px 50px;	
 }
 
 .box1, .box2, .box3, .box4
@@ -275,7 +264,6 @@ button:active
 	justify-content: center;
 	align-items:  center;
 	flex-direction: column;
-
 }
 
 .conteudo-box 
@@ -283,8 +271,7 @@ button:active
 	display: flex;
     justify-content: space-between;
     margin-left: 50px;
-    margin-right: 50px;
-	
+    margin-right: 50px;	
 }
 
 .box1
@@ -324,7 +311,7 @@ button:active
 	align-items: center;
 	font-family: calibri;
 	font-weight: bold;
-	margin-top: 10px;
+	margin-top: 40px;
 	
 }
 
@@ -348,7 +335,7 @@ button:active
 	text-align: center;
 	width: 250px;
 	color: #8f8f8f;
-	margin: 0px 0px 20px 0px;
+	margin: 0px 0px 50px 0px;
 	
 }
 
@@ -356,7 +343,6 @@ button:active
 .box2 button,
 .box3 button,
 .box4 button
-
 {
 	width: 100px;
 	height: 30px;
@@ -368,3 +354,30 @@ button:active
 
 }
 
+
+/* redes sociais estilo */
+img.github
+{
+	width: 90px;
+}
+
+img.instagram
+{
+	width: 90px;
+	margin: 0px 30px 0px 30px;
+}
+
+img.linkedin
+{
+	width: 90px;
+}
+
+.texto-rede
+{
+	font-family: calibri;
+	font-weight: bold;
+	color: #3e3d3d;
+	font-size:30px;
+	line-height: 0px;
+	height: 40px;
+}	
